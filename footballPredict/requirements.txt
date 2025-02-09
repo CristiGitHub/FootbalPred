@@ -1,0 +1,7 @@
+fastapi==0.100.0
+tensorflow-macos==2.16.2  # For M1/M2 Macs (ARM64)
+numpy==1.26.4
+opencv-python-headless==4.8.0.74  # Headless version for environments without a GUI
+minio==7.1.16
+Pillow==9.4.0
+matplotlib==3.10.0

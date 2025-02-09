@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        style="@style/MyBottomNavStyle"
+        android:layout_width="434dp"
+        android:layout_height="69dp"
+        android:background="@color/white"
+        app:itemHorizontalTranslationEnabled="true"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="100dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="274dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </WebView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="304dp"
+        android:text="VS"
+
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/webView2"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/webView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <WebView
+        android:id="@+id/webView2"
+        android:layout_width="103dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="160dp"
+        android:background="#00FFFFFF"
+        android:text="Check"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

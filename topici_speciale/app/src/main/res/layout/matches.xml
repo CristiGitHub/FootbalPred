@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="410dp"
+        android:layout_height="664dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="410dp"
+            android:layout_height="643dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="390dp"
+                android:layout_height="199dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@color/black"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView_echipatext11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Acasa"
+                    android:textSize="18sp" />
+
+
+
+                <TextView
+                    android:id="@+id/textView_nume11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:id="@+id/textView_data11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="100dp"/>
+
+                <TextView
+                    android:id="@+id/textView_liga11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="120dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView_echipa11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Deplasare" />
+
+
+
+                <TextView
+                    android:id="@+id/textView_nume21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fgfg"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="60dp"/>
+
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:text="." />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="390dp"
+                android:layout_height="199dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="30dp"
+                android:background="@color/black"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView_echipatext12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Acasa"
+                    android:textSize="18sp" />
+
+
+
+                <TextView
+                    android:id="@+id/textView_nume12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:id="@+id/textView_data22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="100dp"/>
+
+                <TextView
+                    android:id="@+id/textView_liga22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="120dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView_echipa22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Deplasare" />
+
+
+
+                <TextView
+                    android:id="@+id/textView_nume22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="60dp"/>
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:text="." />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="390dp"
+                android:layout_height="199dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="500dp"
+                android:layout_marginEnd="30dp"
+                android:background="@color/black"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView_echipatext13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Acasa"
+                    android:textSize="18sp" />
+
+
+
+                <TextView
+                    android:id="@+id/textView_nume13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="60dp"/>
+
+                <TextView
+                    android:id="@+id/textView_data13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="100dp"/>
+
+                <TextView
+                    android:id="@+id/textView_liga13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="170dp"
+                    android:layout_marginTop="120dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView_echipa23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Deplasare" />
+
+
+
+                <TextView
+                    android:id="@+id/textView_nume23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="60dp"/>
+
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:text="." />
+            </androidx.cardview.widget.CardView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        style="@style/MyBottomNavStyle"
+        android:layout_width="434dp"
+        android:layout_height="69dp"
+        android:background="@color/white"
+        app:itemHorizontalTranslationEnabled="true"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
